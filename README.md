@@ -1,2 +1,4 @@
 # OdooHackathon-Final-Phase-SpellBooks
-A comprehensive 'Library Management System' made with passion for all!
+Put your thinking caps on cause now you'll never get out of your favourite books!!
+
+
