@@ -3,9 +3,20 @@ import requests
 
 app = Flask(__name__)
 
-@app.route('/book-details/<isbn>', methods=['GET'])
-def get_book_details(isbn):
-    url = f'https://www.googleapis.com/books/v1/volumes?q=isbn:{isbn}&key=#'
+@app.after_request
+def after_request(response):
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE')
+    return response
+
+@app.route('/book-details/<identifier>', methods=['GET'])
+def get_book_details(identifier):
+    if len(identifier) == 13 and identifier.isdigit():  # Check if identifier is ISBN (13 digits)
+        url = f'https://www.googleapis.com/books/v1/volumes?q=isbn:{identifier}&key=#'
+    else:  # Assume identifier is book name
+        url = f'https://www.googleapis.com/books/v1/volumes?q=intitle:{identifier}&maxResults=1&key=#'
+    
     response = requests.get(url)
     
     if response.status_code == 200:

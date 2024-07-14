@@ -3,7 +3,7 @@ import BookDetails from './components/BookDetails'
 function App() {
   return (
     <div>
-      <BookDetails isbn="9781451648546" />
+      <BookDetails />
     </div>
   )
 }
