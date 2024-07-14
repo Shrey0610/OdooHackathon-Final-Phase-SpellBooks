@@ -6,7 +6,7 @@ Put your thinking caps on cause now you'll never get out of your favourite books
 
 ## Dependencies 💡
 - REACT.JS
-- EXPRESS.JS
+- FLASK
 - NODE.JS
 - MONGODB
 - RESTAPI
@@ -69,18 +69,7 @@ pip install openai
 pip install nodemon
 ```
 
-
-4. ### Add Your OpenAI-Api Key
-in terminal using
-```bash
-export YOUR_API_KEY='YOUR_API_KEY'
-```
-```bash
-#or simply replace the YOUR_API_KEY with yours
-```
-
-
-5. ### For Flask-(server2)
+4. ### For Flask-(server2)
 ```bash
 cd server
 ```
@@ -104,7 +93,7 @@ pip install tensorflow
 
 
 
-7. ### Run the React-app
+6. ### Run the React-app
 ```bash
 cd ForNature
 PORT=9004 npm start
