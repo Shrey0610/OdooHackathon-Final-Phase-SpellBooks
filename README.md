@@ -1,121 +1,70 @@
-# OdooHackathon-Final-Phase-SpellBooks
-Put your thinking caps on cause now you'll never get out of your favourite books!!
+# Getting Started with Create React App
 
-## Working Video-
-...
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Dependencies 💡
-- REACT.JS
-- FLASK
-- NODE.JS
-- MONGODB
-- RESTAPI
+## Available Scripts
 
+In the project directory, you can run:
 
-## Quick Insights 💪 
+### `npm start`
 
-Explore the various features of our websites quickly here- 
-1. Explore
-2. Borrow
-3. Search
-4. About Us
-5. Login/Signup --> 6. User details
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Getting Started- (SETUP)
+### `npm test`
 
-1. Clone the repository
-```bash
-https://github.com/Shrey0610/OdooHackathon-Final-Phase-SpellBooks.git
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
-2. ### For React- (src > App.js)
-```bash
-npm create-react-app {your_app}
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-```bash
-cd {your_app}
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```bash
- npm install react-router-dom
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-```bash
-npm install --save cors
-```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-3. ### For Express- (server)
-```bash
-cd server
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```bash
-pip install -r requirements.txt
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-```bash
-npm init
-```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-```bash
-pip install openai
-```
+## Learn More
 
-```bash
-pip install nodemon
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-4. ### For Flask-(server2)
-```bash
-cd server
-```
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-```bash
-python3 -m venv venv
-```
+### Code Splitting
 
-```bash
-source venv/bin/activate
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-```bash
-pip install flask
-```
+### Analyzing the Bundle Size
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-```bash
-pip install tensorflow
-```
+### Making a Progressive Web App
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
 
-6. ### Run the React-app
-```bash
-cd ForNature
-PORT=9004 npm start
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+### Deployment
 
-7. ### Run the Express-app (server)
-```bash
-cd server
-nodemon server.js
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-8. ### Run the Flask-app (server2)
-```bash
-cd server
-python -u {path to server2} run
-```
+### `npm run build` fails to minify
 
-
-### Note that you'd require- 
-A google books API to get the books like: ``` https://www.googleapis.com/books/v1/volumes?q=isbn:{identifier}&key=# ```
-Add your own key there
-
-
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
