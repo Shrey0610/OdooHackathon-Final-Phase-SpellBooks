@@ -113,3 +113,9 @@ python -u {path to server2} run
 ```
 
 
+### Note that you'd require- 
+A google books API to get the books like: ```bash https://www.googleapis.com/books/v1/volumes?q=isbn:{identifier}&key=# ```
+Add your own key there
+
+
+
