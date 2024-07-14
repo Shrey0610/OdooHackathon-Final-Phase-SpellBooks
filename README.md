@@ -26,7 +26,7 @@ Explore the various features of our websites quickly here-
 
 1. Clone the repository
 ```bash
-git clone https://github.com/Shrey0610/ForNature.github.io
+https://github.com/Shrey0610/OdooHackathon-Final-Phase-SpellBooks.git
 ```
 
 
