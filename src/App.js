@@ -7,15 +7,18 @@ import BookDetails from './components/BookDetails';
 // Navbar component
 function AppNavbar() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" className="border-bottom border-body">
+    <Navbar bg="dark" variant="dark" expand="lg" className="border-bottom border-body justify-content-center">
       <Container>
         <Navbar.Brand as={Link} to="/">
-          <img src="/path/to/your/logo.png" className="logo" alt="Logo" />
+          <img src="/images/SpellBooks.png" className="logo" alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/book-details">Explore</Nav.Link>
+            <Nav.Link as={Link} to="/book-details">Explore</Nav.Link>
+            <Nav.Link as={Link} to="/book-details">Explore</Nav.Link>
+            <Nav.Link as={Link} to="/book-details">Explore</Nav.Link>
             <Nav.Link as={Link} to="/book-details">Explore</Nav.Link>
             {/* Add more Nav.Link components as needed */}
           </Nav>
@@ -63,7 +66,7 @@ function Home() {
             type="button"
             className="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
           >
-             About Mobius
+             About SpellBooks
           </button></a>
 
         </div>
@@ -71,7 +74,7 @@ function Home() {
       <div className="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg" style={{ marginLeft: '10px', marginTop: '-45px' }}>
   <img
     className="rounded-lg-3"
-
+    src='/images/questions-concept-illustration_114360-1513.jpg'
     alt=""
     style={{ width: 600 }}
   />
